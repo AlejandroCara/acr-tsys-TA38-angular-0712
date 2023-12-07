@@ -1,0 +1,11 @@
+p {
+    display: inline-block;
+    width: 110px;
+    font-weight: bold;
+}
+
+div {
+    padding: 5px;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    width: 500px;
+}

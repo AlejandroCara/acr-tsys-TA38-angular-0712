@@ -1,1 +1,25 @@
-<p>formulario works!</p>
+<h1>Alta cliente</h1>
+<div>
+    <div>
+        <p>Nombre:</p>
+        <input #formName type="text" name="nombre" id="nombre"><br>
+    </div>
+    <div>
+        <p>CIF:</p>
+    <input #formCIF type="text" name="cif" id="cif"><br>
+    </div>
+    <div>
+        <p>Dirección:</p>
+        <input #formDirection type="text" name="direccion" id="direccion"><br>
+    </div>
+    <div>
+        <p>Grupo:</p>
+        <select #formGroup name="grupo" id="grupo">
+            <option value="Sin definir">Sin definir</option>
+            <option value="Con definir">Con definir</option>
+        </select><br>
+    </div>
+    <div>   
+        <button (click)="clickGuardar()">Guardar</button>
+    </div>
+</div>
